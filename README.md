@@ -8,22 +8,9 @@ This repository demonstrates the application of fairness-enhancing techniques in
 - **Baseline Random Forest Model**: Train and assess a simple Random Forest pipeline.
 - **Extensible Framework**: Integrate fairness-enhancing techniques such as pre-processing, in-processing, and post-processing.
 
-## Installation
-
-Clone the repository and install the required dependencies:
-
-```bash
-git clone https://github.com/wonkwonlee/fairness-intervention.git
-cd fairness-pipeline
-pip install -r requirements.txt
-```
-
-## Usage
-python fairness_pipeline.py
 
 ## Key Metrics
 The framework evaluates machine learning models using the following fairness metrics:
-
 1. False Positive Rate (Privileged/Unprivileged)
 2. False Positive Rate Difference
 3. Overall Accuracy
